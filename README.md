@@ -36,7 +36,9 @@ Developed by Node.js, MongoDB and also mongoose for lightweight database managem
 
 ## CLIENT
 
-Developed by Vue.js. 
+Developed by Vue.js.
+
+Vue.js is a suitable choice for a simple CRUD project due to its simplicity, reactivity, and component-based architecture. With Vue.js, developers can quickly grasp the core concepts, easily update and display data with automatic UI synchronization, and create reusable components for efficient code organization. The framework's efficiency, integration capabilities, performance optimizations, and strong community support further contribute to its suitability for building responsive and functional CRUD applications. It is also more compatible with the Vite than the others.
 
 ### Getting Started
 
