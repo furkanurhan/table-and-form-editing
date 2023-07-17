@@ -1,4 +1,5 @@
 const express = require('express');
+const cors = require('cors');
 const db = require('./db/index');
 const carsRoutes = require('./routes/cars');
 
@@ -8,6 +9,7 @@ const app = express();
 
 // Middlewares
 app.use(express.json());
+app.use(cors()); // Enable CORS for all routes
 
 // Configuration
 const port = process.env.PORT || 3000;

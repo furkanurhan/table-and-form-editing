@@ -7,6 +7,7 @@ const carValidationSchema = Joi.object({
   INSTOCK: Joi.boolean().required(),
   HORSEPOWER: Joi.number().integer().min(100).max(550).required(),
   PRICE: Joi.number().required(),
+  CURRENCY: Joi.string().required(),
   COLOR: Joi.string().required()
 });
 
